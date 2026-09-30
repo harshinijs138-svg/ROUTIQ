@@ -1,0 +1,1 @@
+import{j as t,k as a,D as r}from"./index-wLEj5tMJ.js";import{I as e}from"./ImpactSummary-BrUNLVLd.js";import"./arrow-right-DhjqkH6R.js";function m(){return t.jsxs("div",{className:"page",children:[t.jsx(a,{title:"Operational Impact",subtitle:"What the current disruption means for your network.",actions:t.jsx(r,{})}),t.jsx(e,{})]})}export{m as default};

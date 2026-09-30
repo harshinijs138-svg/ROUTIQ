@@ -1,0 +1,26 @@
+import{c,u as b,r as g,q as k,h as f,j as s,k as A,D as R,s as p,C as n,S as w,f as C,B as d,L as S}from"./index-wLEj5tMJ.js";import{I as M}from"./ImpactSummary-BrUNLVLd.js";import{A as I}from"./arrow-right-DhjqkH6R.js";/**
+ * @license lucide-react v0.452.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const z=c("Ban",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m4.9 4.9 14.2 14.2",key:"1m5liu"}]]);/**
+ * @license lucide-react v0.452.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const B=c("Car",[["path",{d:"M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2",key:"5owen"}],["circle",{cx:"7",cy:"17",r:"2",key:"u2ysq9"}],["path",{d:"M9 17h6",key:"r8uit2"}],["circle",{cx:"17",cy:"17",r:"2",key:"axvx0g"}]]);/**
+ * @license lucide-react v0.452.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const E=c("CloudRain",[["path",{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",key:"1pljnt"}],["path",{d:"M16 14v6",key:"1j4efv"}],["path",{d:"M8 14v6",key:"17c4r9"}],["path",{d:"M12 16v6",key:"c8a4gj"}]]);/**
+ * @license lucide-react v0.452.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const L=c("Mountain",[["path",{d:"m8 3 4 8 5-5 5 15H2L8 3z",key:"otkl63"}]]);/**
+ * @license lucide-react v0.452.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const O=c("Waves",[["path",{d:"M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",key:"knzxuh"}],["path",{d:"M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",key:"2jd2cc"}],["path",{d:"M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",key:"rd2r6e"}]]),H={rainfall:E,flood:O,landslide:L,closure:z,traffic:B};function D(){const{routes:t,baselineRoutes:j,scenario:u,sim:v,setScenario:o}=b(),[a,y]=g.useState("rainfall");if(!t.length)return null;const h=j.find(e=>e.id==="A"),x=t.map(e=>k(e,a,1)),l=x.find(e=>e.id==="A"),i=f(x),r=u===a&&v.intensity===1;return s.jsxs("div",{className:"page",children:[s.jsx(A,{title:"What if conditions change?",subtitle:"Simulate a disruption and see how it affects your network.",actions:s.jsx(R,{})}),s.jsx("div",{className:"scenarios",role:"group","aria-label":"Scenarios",children:Object.entries(p).map(([e,m])=>{const N=H[e];return s.jsxs("button",{className:`scenario ${a===e?"on":""}`,"aria-pressed":a===e,onClick:()=>y(e),children:[s.jsx(N,{size:22}),s.jsx("strong",{children:m.label}),s.jsx("span",{children:m.blurb})]},e)})}),s.jsxs("div",{className:"ba",children:[s.jsxs(n,{children:[s.jsx("p",{className:"cap",children:"Before · Normal conditions"}),s.jsx("h3",{children:"Route A"}),s.jsxs("div",{className:"row gap-lg",children:[s.jsxs("div",{children:[s.jsxs("div",{className:"big-xl",children:[h.risk,"%"]}),s.jsx("div",{className:"cap",children:"Risk"})]}),s.jsxs("div",{children:[s.jsxs("div",{className:"big-xl",children:[h.accessibility,"%"]}),s.jsx("div",{className:"cap",children:"Accessibility"})]})]})]}),s.jsx("div",{className:"ba-arrow",children:s.jsx(I,{})}),s.jsxs(n,{children:[s.jsxs("p",{className:"cap",children:["After · ",p[a].label]}),s.jsx("h3",{children:"Route A"}),s.jsxs("div",{className:"row gap-lg",children:[s.jsxs("div",{children:[s.jsxs("div",{className:`big-xl num-${l.level}`,children:[l.risk,"%"]}),s.jsx("div",{className:"cap",children:"Risk"})]}),s.jsxs("div",{children:[s.jsxs("div",{className:"big-xl num-high",children:[l.accessibility,"%"]}),s.jsx("div",{className:"cap",children:"Accessibility"})]})]}),s.jsx(w,{level:l.level})]}),s.jsxs(n,{className:"reco-card",children:[s.jsx("p",{className:"cap brand",children:"ROUTIQ response"}),s.jsxs("h3",{children:["Recommended: ",i.name]}),s.jsxs("div",{className:"row gap-lg",children:[s.jsxs("div",{children:[s.jsxs("div",{className:"big-xl",children:[i.risk,"%"]}),s.jsx("div",{className:"cap",children:"Risk"})]}),s.jsxs("div",{children:[s.jsxs("div",{className:"big-xl",children:[i.accessibility,"%"]}),s.jsx("div",{className:"cap",children:"Accessibility"})]})]}),s.jsxs("p",{className:"muted small",children:["ETA ",C(i.eta)," · Rule-based analysis"]}),s.jsx(d,{as:S,to:`/app/routes/${i.id}`,children:"View Safer Route"})]})]}),s.jsxs("div",{className:"row gap wrap",children:[s.jsx(d,{size:"lg",onClick:()=>o(a,1),disabled:r,children:r?"Applied to network":"Apply to network"}),s.jsx(d,{size:"lg",variant:"secondary",onClick:()=>o(null,1),children:"Reset to normal"}),s.jsx("span",{className:"muted small",children:"Applying updates the dashboard, map, routes, vehicles and alerts."})]}),r&&s.jsxs("div",{className:"mt-lg",children:[s.jsx("h2",{children:"Operational Impact"}),s.jsx(M,{})]})]})}export{D as default};
